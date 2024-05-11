@@ -619,3 +619,31 @@ footer {
         }
     }
 }
+.blog-category-wrapper {
+    background-color: #efefef;
+    border: 1px solid #363636;
+    height: 400px;
+    margin-bottom: 3rem;
+
+    .blog-category {
+        max-width: 300px;
+        height: 100%;
+
+        &-title {
+            display: inline-block;
+            width: 300px;
+            background-color: #0fe3af;
+            color: #000000;
+            padding: 10px 20px;
+        }
+
+        a {
+            display: block;
+            background-color: #0152a8;
+            padding: 10px 20px;
+            color: #ffffff;
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+    }
+}
