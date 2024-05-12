@@ -1,6 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 :root {
   --main-blue: #0152AB;
   --main-green: #0fe3af;
+}
+
+html,
+body {
+  font-family: "Montserrat", sans-serif;
 }
 
 a {
@@ -239,23 +245,23 @@ body {
   color: #1c1c1c;
 }
 .slider-main-wrapper .slider-main-content-title {
-  font-size: 2rem;
+  font-size: 1.2rem;
   font-weight: 700;
   color: #143450;
   line-height: 120%;
 }
 @media (min-width: 768px) {
   .slider-main-wrapper .slider-main-content-title {
-    font-size: 3.5rem;
+    font-size: 3rem;
   }
 }
 .slider-main-wrapper .slider-main-content-desc {
-  font-size: 1rem;
+  font-size: 0.85rem;
   color: #1c1c1c;
 }
 @media (min-width: 768px) {
   .slider-main-wrapper .slider-main-content-desc {
-    font-size: 2rem;
+    font-size: 1.2rem;
   }
 }
 .slider-main-wrapper .slider-main-img {

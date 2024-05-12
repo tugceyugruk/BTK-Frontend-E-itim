@@ -1,8 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 :root {
     --main-blue: #0152AB;
     --main-green: #0fe3af;
 }
-
+html,
+body{
+    font-family: "Montserrat", sans-serif;
+}
 a {
     text-decoration: none;
 }
@@ -250,22 +254,22 @@ body {
             }
 
             &-title {
-                font-size: 2rem;
+                font-size: 1.2rem;
                 font-weight: 700;
                 color: #143450;
                 line-height: 120%;
                 @media (min-width: 768px) {
                 
-                       font-size: 3.5rem;
+                       font-size: 3rem;
                     }
             }
 
             &-desc {
-                font-size: 1rem;
+                font-size: 0.85rem;
                 color: #1c1c1c;
                 @media (min-width: 768px) {
                 
-                        font-size: 2rem;
+                        font-size: 1.2rem;
                     }
             }
         }
